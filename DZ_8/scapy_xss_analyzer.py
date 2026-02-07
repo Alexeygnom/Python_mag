@@ -130,7 +130,7 @@ def _split_headers_body(raw: bytes):
     sep = b"\r\n\r\n"
     idx = raw.find(sep)
     if idx == -1:
-        return raw, b"""
+        return raw, b
     return raw[:idx], raw[idx + 4:]
 
 
