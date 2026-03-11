@@ -1,0 +1,11 @@
+dest_ip,event_count,is_frequent,vt_malicious,vt_suspicious,vt_harmless,vt_undetected,vt_reputation,threat_level,action
+206.168.34.44,12,True,12.0,0.0,52.0,30.0,-5.0,high,block
+185.220.101.1,10,True,15.0,3.0,45.0,31.0,-23.0,high,block
+8.8.8.8,8,True,0.0,0.0,59.0,35.0,528.0,medium,alert
+1.1.1.1,7,True,0.0,1.0,62.0,31.0,82.0,medium,alert
+9.9.9.9,6,True,1.0,0.0,57.0,36.0,10.0,medium,alert
+45.67.12.10,3,False,,,,,,low,ignore
+172.67.214.33,2,False,,,,,,low,ignore
+104.21.59.12,2,False,,,,,,low,ignore
+151.101.1.69,2,False,,,,,,low,ignore
+72.14.192.12,1,False,,,,,,low,ignore
